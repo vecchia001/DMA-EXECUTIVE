@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 0 0% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 0 0% 15%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 15%;
+
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 0% 90%;
+    --accent-foreground: 0 0% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 0 0% 15%;
+
+    --radius: 0.5rem;
+
+    /* Custom executive colors */
+    --anthracite: 0 0% 18%;
+    --charcoal: 0 0% 25%;
+    --silver: 0 0% 75%;
+    --pearl: 0 0% 96%;
+
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Inter', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  .text-heading {
+    font-family: var(--font-heading);
+  }
+
+  .text-body {
+    font-family: var(--font-body);
+  }
+
+  .bg-anthracite {
+    background-color: hsl(var(--anthracite));
+  }
+
+  .text-anthracite {
+    color: hsl(var(--anthracite));
+  }
+
+  .bg-pearl {
+    background-color: hsl(var(--pearl));
+  }
+
+  .border-silver {
+    border-color: hsl(var(--silver));
+  }
+}
