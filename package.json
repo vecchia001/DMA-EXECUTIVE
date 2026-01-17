@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "homepage": "https://vecchia001.github.io/venezia-chauffeur-site-main",
+=======
+>>>>>>> bc30590ee5bcfbe136880e760c12048d662edc8b
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,8 +14,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
+<<<<<<< HEAD
     "test:watch": "vitest",
     "deploy": "gh-pages -d dist"
+=======
+    "test:watch": "vitest"
+>>>>>>> bc30590ee5bcfbe136880e760c12048d662edc8b
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -67,9 +74,15 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
+<<<<<<< HEAD
     "@tailwindcss/typography": "^0.5.16",
     "@testing-library/jest-dom": "^6.6.0",
     "@testing-library/react": "^16.0.0",
+=======
+    "@testing-library/jest-dom": "^6.6.0",
+    "@testing-library/react": "^16.0.0",
+    "@tailwindcss/typography": "^0.5.16",
+>>>>>>> bc30590ee5bcfbe136880e760c12048d662edc8b
     "@types/node": "^22.16.5",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
@@ -78,7 +91,10 @@
     "eslint": "^9.32.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> bc30590ee5bcfbe136880e760c12048d662edc8b
     "globals": "^15.15.0",
     "jsdom": "^20.0.3",
     "lovable-tagger": "^1.1.13",
