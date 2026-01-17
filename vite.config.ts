@@ -5,10 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-<<<<<<< HEAD
-  base: "/venezia-chauffeur-site-main/",
-=======
->>>>>>> bc30590ee5bcfbe136880e760c12048d662edc8b
   server: {
     host: "::",
     port: 8080,
